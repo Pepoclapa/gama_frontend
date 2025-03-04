@@ -26,9 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full h-screen`}
       >
-        <h1 className="text-3xl">Root brisi</h1>
         {children}
       </body>
     </html>
